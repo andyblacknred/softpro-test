@@ -1,6 +1,6 @@
 <template>
-  <ul class="list-videos">
-    <li v-for="( item, index ) in listVideos" :key="index">
+  <ul class="list-videos content-list">
+    <li class="content-list-item" v-for="( item, index ) in listVideos" :key="index">
       <router-link
           :to="'/videos/'+item.id"
       >
@@ -20,10 +20,5 @@ export default {
   }
 }
 </script>
-
-<style lang="sass" scoped>
-.list-videos
-  background-color: #fff
-</style>
 
 

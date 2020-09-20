@@ -4,7 +4,7 @@ module.exports = {
             sass: {
                 additionalData: `
                     @import "@/sass/variables.sass"
-                    @import "@/sass/fonts.sass"
+                    @import "@/sass/fonts.sass"                    
                 `
             }
         }

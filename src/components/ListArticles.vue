@@ -1,6 +1,6 @@
 <template>
-  <ul class="list-articles">
-    <li v-for="( item, index ) in listArticles" :key="index">
+  <ul class="list-articles content-list">
+    <li class="content-list-item" v-for="( item, index ) in listArticles" :key="index">
       <router-link
           :to="'/articles/'+item.id"
       >

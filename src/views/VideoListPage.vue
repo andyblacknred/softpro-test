@@ -1,6 +1,7 @@
 <template>
   <div class="videos page">
     <div class="container">
+      <h1>Відеокурс</h1>
       <ListVideos />
     </div>
   </div>
@@ -16,3 +17,7 @@ export default {
   }
 }
 </script>
+
+<style lang="sass" scoped>
+
+</style>

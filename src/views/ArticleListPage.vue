@@ -1,6 +1,9 @@
 <template>
-  <div class="articles">
-    <ListArticles />
+  <div class="articles page">
+    <div class="container">
+      <h1>Статті</h1>
+      <ListArticles />
+    </div>
   </div>
 </template>
 
