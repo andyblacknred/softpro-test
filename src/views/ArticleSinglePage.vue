@@ -1,6 +1,8 @@
 <template>
-  <div class="articles-single">
-    <ItemArticles />
+  <div class="articles-single page">
+    <div class="container">
+      <ItemArticles />
+    </div>
   </div>
 </template>
 
