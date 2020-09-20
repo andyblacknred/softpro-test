@@ -1,6 +1,8 @@
 <template>
-  <div class="faq">
-    <ListFaq />
+  <div class="faq page">
+    <div class="container">
+      <ListFaq />
+    </div>
   </div>
 </template>
 

@@ -75,6 +75,7 @@ export default {
       justify-content: center
       transform: translateX(-100%)
       transition: transform .5s
+      z-index: 1
       &.opened
         transform: translateX(0)
         transition: transform .5s
@@ -84,6 +85,7 @@ export default {
       text-transform: uppercase
       padding: 15px
       display: block
+      font-size: 24px
   .mobile-nav
     display: none
     @media all and (max-width: $mobile)
@@ -93,6 +95,7 @@ export default {
       padding: 15px
       position: relative
       margin-left: auto
+      z-index: 2
       &::before,
       &::after,
       span

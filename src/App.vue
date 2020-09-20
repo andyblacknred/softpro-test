@@ -60,7 +60,7 @@ h3
   box-sizing: border-box
 
 .page
-  min-height: calc(100vh - 148px)
+  min-height: calc(100vh - 158px)
   padding: 25px 0
   background-color: $grey
 

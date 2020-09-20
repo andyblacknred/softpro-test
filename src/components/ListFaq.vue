@@ -1,5 +1,5 @@
 <template>
-  <div class="list-faq" v-if="true">
+  <div class="list-faq content-list" v-if="true">
     <ItemFaq v-for="(item, index) of listFaq" :faqItem="item" :key="index" />
   </div>
 </template>
