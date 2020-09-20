@@ -31,4 +31,10 @@ export default {
 }
 </script>
 
+<style lang="sass" scoped>
+iframe,
+video
+  width: 100%
+</style>
+
 

@@ -1,6 +1,8 @@
 <template>
-  <div class="videos-single">
-    <ItemVideos />
+  <div class="videos-single page">
+    <div class="container">
+      <ItemVideos />
+    </div>
   </div>
 </template>
 
