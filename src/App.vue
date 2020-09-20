@@ -9,12 +9,23 @@
 <script>
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import store from './store'
+import axios from 'axios'
 
 export default {
   name: 'App',
   components: {
     Header,
     Footer
+  },
+  mounted() {
+    let list = [];
+    axios
+      .get('https://jsonplaceholder.typicode.com/posts')
+      .then(response => {
+        list = response.data
+        store.dispatch('setListArticles', list);
+      });
   }
 }
 
