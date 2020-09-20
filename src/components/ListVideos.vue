@@ -21,4 +21,9 @@ export default {
 }
 </script>
 
+<style lang="sass" scoped>
+.list-videos
+  background-color: #fff
+</style>
+
 

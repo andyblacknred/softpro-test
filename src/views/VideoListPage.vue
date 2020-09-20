@@ -1,6 +1,8 @@
 <template>
-  <div class="videos">
-    <ListVideos />
+  <div class="videos page">
+    <div class="container">
+      <ListVideos />
+    </div>
   </div>
 </template>
 
