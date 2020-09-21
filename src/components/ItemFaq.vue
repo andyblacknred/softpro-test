@@ -32,6 +32,7 @@ h3
   display: flex
   justify-content: space-between
   align-items: center
+  cursor: pointer
 
 svg
   min-width: 50px
